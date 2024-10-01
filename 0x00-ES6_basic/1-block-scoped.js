@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
 export default function taskBlock(trueOrFalse) {
   let task = false;
