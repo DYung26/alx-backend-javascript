@@ -10,7 +10,7 @@ function getResponseFromAPI() {
       } else {
         reject('Error failed to fetch data.');
       }
-    }, 0);
+    }, 2000);
   });
 }
 
