@@ -1,4 +1,4 @@
-export defaukt class Currency {
+export default class Currency {
   constructor (code, name) {
     this._code = code;
     this._name = name;
@@ -21,6 +21,6 @@ export defaukt class Currency {
   }
 
   displayFullCurrency() {
-    return `${this._name} (${code})`;
+    return `${this._name} (${this._code})`;
   }
 }
