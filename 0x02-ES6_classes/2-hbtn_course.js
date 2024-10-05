@@ -1,7 +1,5 @@
 export default class HolbertonCourse {
-  constructor(
-    name, length, students
-  ) {
+  constructor(name, length, students) {
     if (typeof name === 'string') {
       this._name = name;
     }
@@ -10,7 +8,7 @@ export default class HolbertonCourse {
       this._length = length;
     }
 
-    if (typeof students === 'string[]')
+    if (typeof students === 'string[]') {
       this._students = students;
     }
 
