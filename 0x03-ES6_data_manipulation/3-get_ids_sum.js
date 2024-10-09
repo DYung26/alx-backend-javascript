@@ -6,7 +6,7 @@
  *   id: Number,
  *   firstName: String,
  *   location: String
- * }[]} students - The list of students.
+ * }[]} studentsList - The list of students.
  * @author DYung26 <https://github.com/DYung26>
  * @returns {Number}
  */
