@@ -17,4 +17,5 @@ export default function getStudentIdsSum(studentsList) {
       0,
     );
   }
+  return 0;
 }
