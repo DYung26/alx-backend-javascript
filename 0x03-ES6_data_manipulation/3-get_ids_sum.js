@@ -12,7 +12,7 @@
  */
 export default function getStudentIdsSum(studentsList) {
   if (studentsList instanceof Array) {
-    return students.reduce(
+    return studentsList.reduce(
       (prevStudent, curStudent) => prevStudent.id || prevStudent + curStudent.id,
       0,
     );
