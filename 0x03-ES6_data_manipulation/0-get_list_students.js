@@ -1,5 +1,10 @@
 #!/usr/bin/node
 
+/**
+ * Retrieves a list of students.
+ * @author DYung26 <https://github.com/DYung26>
+ * @returns {{id: Number, firstName: String, location: String}[]}
+ */
 export default function getListStudents() {
   return [
     { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
