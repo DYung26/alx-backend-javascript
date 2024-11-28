@@ -13,7 +13,7 @@ describe('calculateNumber', function () {
     { a: -15, b: 5, type: "DIVIDE", expected: -3 },
     { a: -7, b: -4, type: "SUBTRACT", expected: 3 },
     { a: 1.2, b: 4, type: "SUM", expected: 5 },
-    { a: 1.4, 4.5, type: "SUM", expected: 6 },
+    { a: 1.4, b: 4.5, type: "SUM", expected: 6 },
     { a: 8, b: 0, type: "DIVIDE", expected: "Error" },
   ];
 
