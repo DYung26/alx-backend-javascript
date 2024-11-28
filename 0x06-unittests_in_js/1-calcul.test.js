@@ -11,9 +11,13 @@ describe('calculateNumber', function () {
     { a: 81, b: -9, type: "DIVIDE", expected: -9 },
     { a: -65, b: 5, type: "SUM", expected: -60 },
     { a: -15, b: 5, type: "DIVIDE", expected: -3 },
-    { a: -7, b: -4, type: "SUBTRACT", expected: -3 },
+    { a: -7, b: 4, type: "SUBTRACT", expected: -11 },
+    { a: -76, b: -14, type: "SUM", expected: -90 },
+    { a: -35, b: -15, type: "SUBTRACT", expected: -20 },
+    { a: -24, b: -8, type: "DIVIDE", expected: 3 },
     { a: 1.2, b: 4, type: "SUM", expected: 5 },
     { a: 1.4, b: 4.5, type: "SUM", expected: 6 },
+    { a: 1.4, b: 0, type: "DIVIDE", expected: "Error" },
     { a: 8, b: 0, type: "DIVIDE", expected: "Error" },
   ];
 
