@@ -8,6 +8,7 @@ describe('calculateNumber', function () {
     { a: -5, b: 8, expected: 3 },
     { a: -7, b: -4, expected: -11 },
     { a: 1.2, b: 4, expected: 5 },
+    { a: 4.3, b: 5.6, expected: 10 },
   ];
 
   testCases.forEach(({ a, b, expected }) => {
