@@ -1,0 +1,6 @@
+{
+  "name": "unittestsJS",
+  "scripts": {
+    "test": "mocha"
+  }
+}
